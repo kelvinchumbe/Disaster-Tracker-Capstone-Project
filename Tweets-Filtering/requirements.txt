@@ -1,0 +1,6 @@
+streamlit
+pandas
+numpy
+tweepy
+tensorflow-cpu
+nltk

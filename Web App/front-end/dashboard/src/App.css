@@ -1,0 +1,301 @@
+/* @media (prefers-reduced-motion: no-preference) {
+  .header-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.app {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.page-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.content {
+  width: 50%;
+  height: 50%;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.header-logo {
+  vertical-align: middle;
+  margin-right: 50px;
+  width: 10%;
+  height: 10%;
+}
+
+.header-nav {
+  font-family: "Raleway";
+  font-size: 1.5em;
+  display: inline-block;
+}
+
+.tool-description {
+  font-size: 1.1em;
+  font-family: "Montserrat";
+}
+
+.form {
+  margin-top: 40px;
+}
+
+.form-input {
+  margin-bottom: 40px;
+}
+
+.field-input {
+  height: 40px;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 0.8em;
+  font-family: "Raleway";
+}
+
+.input-description {
+  font-family: "Raleway";
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.input-description-details {
+  margin-top: 20px;
+  display: block;
+  font-size: 0.8em;
+  font-family: "Raleway";
+}
+
+.form-error-messages {
+  color: "red";
+  font-size: 4em;
+  background-color: "yellow";
+}
+
+.submit {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid lightgray;
+  font-family: "Raleway";
+  font-size: 0.9em;
+}
+
+.form-error-messages {
+  font-size: 0.6em;
+  display: inline;
+}
+
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  margin-top: -250px;
+  margin-left: -250px;
+}
+
+.spinner-image {
+  height: 30%;
+  width: 30%;
+}
+
+.dashboard-body {
+  height: 200vh;
+  /* overflow-x: hidden;
+  overflow-y: auto; */
+}
+
+#map {
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+}
+
+.cluster-marker {
+  color: #fff;
+  background: #1978c8;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tweets-list {
+  height: 200vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.tweet {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+
+.tweet-img {
+  float: left;
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+.tweet-header {
+  display: inline;
+}
+
+.category-dist,
+.hashtag-dist {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-left {
+  flex: 70%;
+  margin-right: 30px;
+}
+
+.dashboard-right {
+  flex: 20%;
+}
+
+.category-label {
+  border-radius: 50%;
+  padding: 4px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.tweet-text {
+  font-family: "Raleway";
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+.tweet-item-header {
+  margin-bottom: 5px;
+}
+
+.tweet-item {
+  margin-bottom: 20px;
+}
+
+.tweet-date {
+  font-family: "Raleway";
+  font-size: 0.8em;
+}
+
+.tweet-username {
+  font-family: "Raleway";
+  font-size: 0.8em;
+}
+
+.filters-bar {
+  margin-bottom: 20px;
+  height: 80px;
+}
+
+.filter {
+  display: flex;
+  /* display: inline-block; */
+}
+
+.filter-input {
+  height: 35px;
+  margin-top: 10px;
+  font-size: 0.9em;
+  font-family: "Raleway";
+  margin-right: 20px;
+  /* flex: 20%; */
+  display: inline-block;
+  /* position: relative; */
+}
+
+.filter-field-category,
+.filter-field-mapping {
+  height: 40px;
+  margin-top: 10px;
+  font-size: 0.8em;
+  font-family: "Raleway";
+}
+
+.filter-clear {
+  height: 40px;
+  margin-top: 26px;
+  font-size: 0.8em;
+  font-family: "Raleway";
+  background-color: "white";
+}
+
+.filter-input-time {
+  height: 35px;
+  margin-top: 10px;
+  font-size: 0.8em;
+  font-family: "Raleway";
+}
+
+.filter-date-container {
+  height: 38px;
+  margin-top: 10px;
+  font-size: 0.8em;
+  font-family: "Raleway";
+  border: 1px solid #6f6f6f;
+  border-radius: 3px;
+  line-height: 36px;
+  padding-left: 15px;
+}
+
+.filters-bar,
+.filter,
+.filter-input,
+.filter-date-container,
+.chevron {
+  z-index: 1;
+}
+
+.date-picker {
+  z-index: 1;
+}
+
+.chevron {
+  margin-left: 75px;
+  margin-right: 5px;
+  float: right;
+  margin-top: 13px;
+  width: 10px;
+}
